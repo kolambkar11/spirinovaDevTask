@@ -92,7 +92,7 @@ export default function Sidebar(props) {
             {/* Sidebar component, swap this element with another sidebar if you like */}
             <div className="flex grow flex-col gap-y-5 overflow-y-auto bg-blue-950 px-6 pb-4">
               <div className="flex h-16 shrink-0 items-center">
-                Notice Generator
+                Spirinova Task
               </div>
               <nav className="flex flex-1 flex-col">
                 <ul role="list" className="flex flex-1 flex-col gap-y-7">
@@ -138,7 +138,7 @@ export default function Sidebar(props) {
         {/* Sidebar component, swap this element with another sidebar if you like */}
         <div className="flex grow flex-col gap-y-5 overflow-y-auto bg-blue-950 px-6 pb-4">
           <div className="flex h-16 shrink-0 items-center">
-            <h1 className="text-3xl text-white">Notice Generator</h1>
+            <h1 className="text-3xl text-white">Spirinova Task</h1>
           </div>
           <nav className="flex flex-1 flex-col">
             <ul role="list" className="flex flex-1 flex-col gap-y-7">
@@ -194,19 +194,6 @@ export default function Sidebar(props) {
                     </li>
                   ))}
                 </ul>
-              </li>
-
-              <li className="mt-auto">
-                <a
-                  href="#"
-                  className="group -mx-2 flex gap-x-3 rounded-md p-2 text-sm  leading-6 text-gray-400 hover:bg-blue-700 hover:text-white"
-                >
-                  <Cog6ToothIcon
-                    aria-hidden="true"
-                    className="h-6 w-6 shrink-0 text-gray-400 group-hover:text-white"
-                  />
-                  Settings
-                </a>
               </li>
             </ul>
           </nav>
